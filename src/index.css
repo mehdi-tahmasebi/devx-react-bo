@@ -1,0 +1,9 @@
+/* Hide scrollbars visually; scrolling still works via wheel, trackpad, touch, keyboard */
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
